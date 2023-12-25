@@ -6,7 +6,7 @@
 * The tracking precision is achieved through the integration of the **'EuclideanDistTracker'** class.
 
 
-### B. Key Features
+### A. Key Features
 * **Background Subtraction:** Implemented OpenCV's **'createBackgroundSubtractorMOG2'** for dynamic background subtraction, allowing the system to focus on moving vehicles within the traffic scene.
 
 * **Contour Detection:** Utilized contour detection to identify and extract vehicles from the live traffic camera feed. This step is crucial for tracking moving objects accurately.
@@ -15,7 +15,7 @@
 
 * **Object Tracking:** Implemented the **'EuclideanDistTracker'** class to assign unique IDs to tracked vehicles based on their movement patterns. This enables the system to track multiple vehicles simultaneously.
 
-### C. Implementation Details
+### B. Implementation Details
 The system processes each frame from the live streaming camera feed by performing the following steps:
 
 **1] Object Detection:** Utilizes background-subtracted frames to detect objects (vehicles) through contour analysis. Small elements are filtered out based on area criteria.
